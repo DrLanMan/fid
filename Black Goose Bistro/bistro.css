@@ -1,0 +1,93 @@
+body {
+  background-color:#faf2e4;
+  margin: 0 10%;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+h1 {
+  text-align: center;
+  font-family: "Kanit", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #57b1dc;
+  margin-top: 30px;
+}
+h2 {
+  color: #d1633c;
+  font-size: 24px;
+}
+h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+  color: #c60;
+  margin-top: 40px;
+}
+footer {
+  border-top: 1px solid #57b1dc;
+  text-align: center;
+  padding-top: 1em;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+}
+.button {
+text-align: center;
+}
+a {
+text-decoration: none;
+}
+a:link {
+  color: #939;
+}
+a:visited {
+  color: #937393;
+}
+a:focus, a:hover {
+  color: #c700f2;
+  background-color: #fff;
+}
+a:active {
+  color: #f0f;
+  background-color: #fff;
+}
+small {
+color: #999;
+}
+header {
+margin-top: 0;
+padding: 3em 1em 2em 1em;
+text-align: center;
+background: url(images/purpledot.png) center top repeat-x;
+background: 
+  url(images/purpledot.png) left top repeat-y,
+  url(images/purpledot.png) right top repeat-y,
+  url(images/goose_shadow.png) 90% bottom no-repeat ;
+  background-color: rgba(255,255,255,.5);
+}
+strong {
+font-style: italic;
+}
+.label {
+  font-weight: bolder;
+  font-variant: small-caps;
+  font-style: normal;
+}
+#info p {
+  font-style: italic;
+}
+h3 + p {
+  text-align: center;
+  font-style: italic;
+}
+menu {
+  font: bold 250% "Caveat", serif;
+  text-shadow: .05em .05em .1em lightslategray;
+  color: #939;
+}
+p.warning, sup {
+  font-size: small;
+}
